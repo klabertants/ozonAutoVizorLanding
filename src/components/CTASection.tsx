@@ -60,7 +60,7 @@ export default function CTASection() {
 
                 <div className="flex items-center justify-center gap-3 mb-1">
                   <span className="text-lg md:text-xl text-gray-400 line-through">2 000 ₽</span>
-                  <span className="text-2xl md:text-4xl font-bold text-orange-500">1 142 ₽</span>
+                  <span className="text-2xl md:text-4xl font-bold text-orange-500">1 232 ₽</span>
                 </div>
                 <p className="text-sm md:text-base text-gray-600">
                   разовый платёж

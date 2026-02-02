@@ -164,7 +164,7 @@ export default function ShortLanding() {
           {/* Цена */}
           <div className="flex items-center justify-center gap-2 mb-1">
             <span className="text-sm text-gray-400 line-through">2 000 ₽</span>
-            <span className="text-2xl font-bold text-orange-500">1 142 ₽</span>
+            <span className="text-2xl font-bold text-orange-500">1 232 ₽</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">разовый платёж</p>
 
