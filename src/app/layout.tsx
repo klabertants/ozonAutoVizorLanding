@@ -11,6 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Автосканер AUTOVIZOR ELM327 — диагностика авто в смартфоне",
   description: "Подключите к авто, откройте приложение — и через 5 минут узнаете реальное состояние машины. Без СТО, без переплат. Подходит для 99% автомобилей с 1996 года.",
+  viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
 };
 
 export default function RootLayout({
