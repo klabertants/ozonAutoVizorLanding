@@ -55,16 +55,16 @@ export default function ShortLanding() {
 
         {/* Заголовок — фиксированный */}
         <div className="text-center flex-shrink-0">
-          <h1 className="text-xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-2xl font-bold text-gray-900 leading-tight">
             Автосканер AUTOVIZOR <span className="text-orange-500">ELM327</span>
           </h1>
-          <p className="text-sm text-gray-600 mt-1">
+          <p className="text-base text-gray-600 mt-1">
             Вся диагностика <span className="text-violet-500 font-medium">в вашем смартфоне</span>
           </p>
         </div>
 
         {/* Фото товара с badges — растягивается/сжимается */}
-        <div className="relative flex-1 min-h-0 flex flex-col">
+        <div className="relative flex-1 min-h-0 flex flex-col my-1">
           {/* Badge: Хит продаж */}
           <div className="absolute top-2 left-2 z-10 bg-gradient-to-r from-violet-500 to-violet-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
             🏆 Хит продаж
@@ -95,12 +95,12 @@ export default function ShortLanding() {
 
           {/* Badges под фото */}
           <div className="flex flex-col gap-1 mt-2 flex-shrink-0">
-            <div className="flex items-center gap-2 text-xs text-gray-700">
-              <span className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">✓</span>
+            <div className="flex items-center gap-2 text-sm text-gray-700">
+              <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-xs">✓</span>
               <span>Официальный дилер</span>
             </div>
-            <div className="flex items-center gap-2 text-xs text-gray-700">
-              <span className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">✓</span>
+            <div className="flex items-center gap-2 text-sm text-gray-700">
+              <span className="w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-xs">✓</span>
               <span>Без подделок! 100% гарантия</span>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function ShortLanding() {
               <ChevronLeft className="w-4 h-4 text-gray-600" />
             </button>
 
-            <div className="flex-1 text-center min-h-[60px] flex flex-col justify-center">
+            <div className="flex-1 text-center h-[76px] flex flex-col justify-center">
               <p className="text-xs text-gray-700 leading-relaxed line-clamp-3">
                 &ldquo;{reviews[currentReview].text}&rdquo;
               </p>
