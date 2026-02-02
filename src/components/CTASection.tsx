@@ -10,7 +10,7 @@ const benefits = [
   "99% авто с 1996 года • iPhone и Android",
 ];
 
-const OZON_URL = "https://www.ozon.ru/product/avtoskaner-dlya-diagnostiki-avtomobilya-autovizor-elm327-obd2-skaner-pic18f25k80-2-platy-3211185218/?utm_source=landing&utm_medium=cpc&utm_campaign=vendor_org_prelanding";
+const OZON_URL = "https://www.ozon.ru/product/avtoskaner-dlya-diagnostiki-avtomobilya-autovizor-elm327-obd2-skaner-pic18f25k80-2-platy-3211185218/?utm_source=landing&utm_medium=cpc&utm_campaign=vendor_org_2732118_short_v1";
 
 export default function CTASection() {
   const handleClick = () => {
