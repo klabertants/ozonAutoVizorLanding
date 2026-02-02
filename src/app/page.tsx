@@ -50,11 +50,11 @@ export default function ShortLanding() {
   };
 
   return (
-    <main className="min-h-dvh bg-gradient-to-b from-orange-50/30 via-white to-white flex items-center justify-center p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
-      <div className="w-full max-w-sm flex flex-col gap-3">
+    <main className="h-dvh bg-gradient-to-b from-orange-50/30 via-white to-white flex flex-col p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
+      <div className="w-full max-w-sm mx-auto flex flex-col gap-2 h-full">
 
-        {/* Заголовок */}
-        <div className="text-center">
+        {/* Заголовок — фиксированный */}
+        <div className="text-center flex-shrink-0">
           <h1 className="text-xl font-bold text-gray-900 leading-tight">
             Автосканер AUTOVIZOR <span className="text-orange-500">ELM327</span>
           </h1>
@@ -63,8 +63,8 @@ export default function ShortLanding() {
           </p>
         </div>
 
-        {/* Фото товара с badges */}
-        <div className="relative">
+        {/* Фото товара с badges — растягивается/сжимается */}
+        <div className="relative flex-1 min-h-0 flex flex-col">
           {/* Badge: Хит продаж */}
           <div className="absolute top-2 left-2 z-10 bg-gradient-to-r from-violet-500 to-violet-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
             🏆 Хит продаж
@@ -75,8 +75,8 @@ export default function ShortLanding() {
             ✓ для 99% авто
           </div>
 
-          {/* Фото */}
-          <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl shadow-orange-500/10 border border-orange-100">
+          {/* Фото — занимает доступное пространство */}
+          <div className="relative flex-1 min-h-0 rounded-2xl overflow-hidden shadow-xl shadow-orange-500/10 border border-orange-100">
             <Image
               src="/images/ELM_327_newlogo_viz.45.jpg"
               alt="AUTOVIZOR ELM327"
@@ -94,7 +94,7 @@ export default function ShortLanding() {
           </div>
 
           {/* Badges под фото */}
-          <div className="flex flex-col gap-1 mt-2">
+          <div className="flex flex-col gap-1 mt-2 flex-shrink-0">
             <div className="flex items-center gap-2 text-xs text-gray-700">
               <span className="w-4 h-4 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600">✓</span>
               <span>Официальный дилер</span>
@@ -106,8 +106,8 @@ export default function ShortLanding() {
           </div>
         </div>
 
-        {/* Карусель отзывов */}
-        <div className="bg-white rounded-2xl shadow-lg shadow-gray-900/5 border border-gray-200/50 p-3">
+        {/* Карусель отзывов — фиксированная */}
+        <div className="bg-white rounded-2xl shadow-lg shadow-gray-900/5 border border-gray-200/50 p-3 flex-shrink-0">
           {/* Звёзды */}
           <div className="flex justify-center gap-0.5 mb-2">
             {[...Array(5)].map((_, i) => (
@@ -154,8 +154,8 @@ export default function ShortLanding() {
           </div>
         </div>
 
-        {/* Цена и CTA */}
-        <div className="bg-white rounded-2xl shadow-lg shadow-gray-900/5 border border-gray-200/50 p-4 text-center relative">
+        {/* Цена и CTA — фиксированный */}
+        <div className="bg-white rounded-2xl shadow-lg shadow-gray-900/5 border border-gray-200/50 p-4 text-center relative flex-shrink-0">
           {/* Ярлычок скидки */}
           <div className="absolute -top-2 right-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-2 py-0.5 rounded-full text-xs font-bold shadow-md">
             -43%
