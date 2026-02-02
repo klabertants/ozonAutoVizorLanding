@@ -50,7 +50,7 @@ export default function ShortLanding() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-orange-50/30 via-white to-white flex items-center justify-center p-4">
+    <main className="min-h-dvh bg-gradient-to-b from-orange-50/30 via-white to-white flex items-center justify-center p-4">
       <div className="w-full max-w-sm flex flex-col gap-3">
 
         {/* Заголовок */}
